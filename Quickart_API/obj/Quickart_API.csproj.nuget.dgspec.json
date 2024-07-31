@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/snehithbootla/Desktop/Fall22/IND/Quickart_API/Quickart_API/Quickart_API.csproj": {}
+  },
+  "projects": {
+    "/Users/snehithbootla/Desktop/Fall22/IND/Quickart_API/Quickart_API/Quickart_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/snehithbootla/Desktop/Fall22/IND/Quickart_API/Quickart_API/Quickart_API.csproj",
+        "projectName": "Quickart_API",
+        "projectPath": "/Users/snehithbootla/Desktop/Fall22/IND/Quickart_API/Quickart_API/Quickart_API.csproj",
+        "packagesPath": "/Users/snehithbootla/.nuget/packages/",
+        "outputPath": "/Users/snehithbootla/Desktop/Fall22/IND/Quickart_API/Quickart_API/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/snehithbootla/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "JWT": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.23.1, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.13, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.23.1, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+name: .NET
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Quickart_API
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: '6.0.x'
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --no-restore -c Release
+    - name: Publish
+      run: dotnet publish --configuration Release --no-build --output published
+    - name: Deploy to Azure
+      uses: azure/webapps-deploy@v2
+      with:
+          app-name: 'Quickart-API'
+          publish-profile: ${{ secrets.PUBLISH_PROFILE }}
+          package: './Quickart_API/published'

@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{5841D5A4-E517-44EE-AEC7-39A3ED062249}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/snehithbootla/Desktop/Fall22/IND/Quickart_API/Quickart_API/Controllers/GetStoresAndProductsController.cs" relfile="Quickart_API/Controllers/GetStoresAndProductsController.cs" line="310" column="1" />
+      <Breakpoint file="/Users/snehithbootla/Desktop/Fall22/IND/Quickart_API/Quickart_API/Controllers/OrderController.cs" relfile="Quickart_API/Controllers/OrderController.cs" line="107" column="1" />
+      <Breakpoint file="/Users/snehithbootla/Desktop/Fall22/IND/Quickart_API/Quickart_API/Controllers/OrderController.cs" relfile="Quickart_API/Controllers/OrderController.cs" line="78" column="1" />
+      <Breakpoint file="/Users/snehithbootla/Desktop/Fall22/IND/Quickart_API/Quickart_API/Controllers/OrderController.cs" relfile="Quickart_API/Controllers/OrderController.cs" line="63" column="1" />
+      <Breakpoint file="/Users/snehithbootla/Desktop/Fall22/IND/Quickart_API/Quickart_API/Controllers/GetStoresAndProductsController.cs" relfile="Quickart_API/Controllers/GetStoresAndProductsController.cs" line="285" column="1" />
+      <Breakpoint file="/Users/snehithbootla/Desktop/Fall22/IND/Quickart_API/Quickart_API/Controllers/GetStoresAndProductsController.cs" relfile="Quickart_API/Controllers/GetStoresAndProductsController.cs" line="293" column="1" />
+      <Breakpoint file="/Users/snehithbootla/Desktop/Fall22/IND/Quickart_API/Quickart_API/Controllers/GetStoresAndProductsController.cs" relfile="Quickart_API/Controllers/GetStoresAndProductsController.cs" line="294" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Quickart__API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Quickart_API/appsettings.json">
+    <Files>
+      <File FileName="Quickart_API/Controllers/OrderController.cs" Line="152" Column="120" />
+      <File FileName="Quickart_API/Controllers/LoginController.cs" Line="149" Column="1" />
+      <File FileName="Quickart_API/Controllers/GetStoresAndProductsController.cs" Line="285" Column="1" />
+      <File FileName="Quickart_API/Controllers/AddressOperationsController.cs" Line="7" Column="22" />
+      <File FileName="Quickart_API/Models/GetProductDetailsResponse.cs" Line="4" Column="29" />
+      <File FileName="Quickart_API/app.config" Line="5" Column="63" />
+      <File FileName="Quickart_API/appsettings.json" Line="9" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Quickart_API" expanded="True">
+            <Node name="Quickart_API" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="appsettings.json" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
